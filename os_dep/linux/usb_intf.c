@@ -240,7 +240,6 @@ static struct usb_device_id rtw_usb_id_tbl[] = {
 	{USB_DEVICE(0x2357, 0x0115), .driver_info = RTL8822B}, /* Archer USB T4Uv3 */
 	{USB_DEVICE(0x2357, 0x012d), .driver_info = RTL8822B}, /* Archer USB T3U */
 	{USB_DEVICE(0x2357, 0x0138), .driver_info = RTL8822B}, /* Archer USB T3U PLUS*/
- 	{USB_DEVICE_AND_INTERFACE_INFO(USB_VENDER_ID_REALTEK, 0xB82C, 0xff, 0xff, 0xff), .dri
 	{USB_DEVICE_AND_INTERFACE_INFO(USB_VENDER_ID_REALTEK, 0xB82C, 0xff, 0xff, 0xff), .driver_info = RTL8822B}, /* Default ID for USB multi-function */
 	{USB_DEVICE_AND_INTERFACE_INFO(USB_VENDER_ID_REALTEK, 0xB812, 0xff, 0xff, 0xff), .driver_info = RTL8822B}, /* Default ID for USB Single-function, WiFi only */
 	{USB_DEVICE_AND_INTERFACE_INFO(USB_VENDER_ID_EDIMAX, 0xB822, 0xff, 0xff, 0xff), .driver_info = RTL8822B}, //EDX
